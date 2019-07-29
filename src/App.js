@@ -1,11 +1,13 @@
 import React from 'react';
 import './App.css';
-import FetchData from './components/FetchData.jsx'
+import FetchData, {FetchDataSplit} from './components/FetchData.jsx'
 
 function App() {
   return (
     <div className="App">
-      <FetchData />>
+      <FetchData />
+      <h1>NEXT SOLUTION</h1>
+      <FetchDataSplit />
     </div>
   );
 }
